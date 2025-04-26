@@ -13,6 +13,20 @@ Synthetic Aperture Radar (SAR) imagery is widely used in remote sensing due to i
 
 ---
 
+## 📆 Project Logbook Snapshot
+
+| Sr.No  | Task / Milestone                         | 
+|--------|------------------------------------------|
+| 1	 | **Phase 1**: Model Research & Selection  | 
+| 2	 | **Phase 2**: Data Preprocessing 	    | 
+| 3	 | **Phase 3**: Initial Training            |
+| 4	 | **Phase 3**: Model Development & Testing |
+| 5	 | **Phase 4**: Model Optimization	    | 
+| 6	 | **Phase 4**: Deployment Preparation      | 
+| 7	 | **Phase 4**: Results Presentation        |
+
+---
+
 ## 🛠️ Project Planning and Execution
 
 ### 📅 Planning and Milestones
@@ -104,11 +118,6 @@ In the final phase, the model was optimized, prepared for deployment, and result
 - **Frameworks**: TensorFlow, PyTorch
 - **Libraries**: OpenCV, NumPy, Pandas, Matplotlib (for data processing and visualization)
 
-### 🏗️ Architecture and Design
-- **Preprocessing Module**: Normalization, alignment, and augmentation.
-- **Model Module**: Flexible selection between CNN, GAN, and Transformer architectures.
-- **Evaluation Module**: Calculation of metrics like SSIM and PSNR to evaluate image quality.
-
 ### 🌟 Innovation and Originality
 - Developed a novel training pipeline that learns the colorization of SAR imagery from paired optical data.
 - Focused on perceptual quality to bridge the gap between technical SAR data and human visual interpretation.
@@ -118,11 +127,11 @@ In the final phase, the model was optimized, prepared for deployment, and result
 ## 🤝 Team Collaboration
 
 ### 👥 Team Members
-- **Neha Sandeep Gayakawad** (Roll No: 221106005 & 221106009)  
-- **Patil Bhavesh Bhagwan** (Roll No: 221106023 & 221106024)  
-- **Mali Gaurang Jagdish** (Roll No: 221106041 & 221106041)  
-- **Mahajan Kalpesh Subhash** (Roll No: 221106051 & 221106050)  
-- **Mali Dipali Vilas** (Roll No: 221106055 & 221106054)  
+- **Neha Sandeep Gayakawad** (Roll No: 221106005 & 09)  
+- **Patil Bhavesh Bhagwan**  (Roll No: 221106023 & 24)  
+- **Mali Gaurang Jagdish**   (Roll No: 221106041 & 41)  
+- **Mahajan Kalpesh Subhash**(Roll No: 221106051 & 50)  
+- **Mali Dipali Vilas**      (Roll No: 221106055 & 54)  
 
 ### 👩‍🏫 Guided By
 **Prof. P. D. Lanjewar Ma'am**
@@ -151,20 +160,6 @@ In the final phase, the model was optimized, prepared for deployment, and result
 - Performance evaluation with metrics like SSIM and PSNR.
 - Complete documentation and source code hosted on GitHub.
 - Potential for academic publication based on originality and performance.
-
----
-
-## 📆 Project Logbook Snapshot
-
-| Sr.No  | Task / Milestone                         | 
-|--------|------------------------------------------|
-| 1	 | **Phase 1**: Model Research & Selection  | 
-| 2	 | **Phase 2**: Data Preprocessing 	    | 
-| 3	 | **Phase 3**: Initial Training            |
-| 4	 | **Phase 3**: Model Development & Testing |
-| 5	 | **Phase 4**: Model Optimization	    | 
-| 6	 | **Phase 4**: Deployment Preparation      | 
-| 7	 | **Phase 4**: Results Presentation        |
 
 ---
 
