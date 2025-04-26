@@ -170,4 +170,3 @@ In the final phase, the model was optimized, prepared for deployment, and result
 
 ## 🧾 Conclusion
 This project offers a robust and scalable solution for colorizing SAR imagery. With a well-structured development process, collaborative teamwork, and deep learning innovations, the project bridges the gap between grayscale SAR data and visually interpretable information.
-
