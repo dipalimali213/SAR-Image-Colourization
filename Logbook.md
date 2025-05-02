@@ -1,126 +1,9 @@
-# 🌈 SAR Image Colourization for Enhanced Interpretation Using Deep Learning
 
-## 📌 Problem Statement & Objectives
+# 📘 Semester Project Logbook
 
-### 🔍 Problem Statement
-Synthetic Aperture Radar (SAR) imagery is widely used in remote sensing due to its ability to capture high-resolution data under any weather or lighting conditions. Despite its effectiveness, the grayscale nature of SAR images significantly limits intuitive human interpretation, especially for tasks that require visual insights such as disaster management, urban analysis, and environmental monitoring. Therefore, there is a need for a solution that can colorize these grayscale images to make them more visually interpretable.
-
-### 🎯 Objectives
-- To design and implement a deep learning-based solution for colorizing grayscale SAR images.
-- To enhance the interpretability and visual appeal of SAR imagery using paired optical data.
-- To train and validate models capable of generating perceptually accurate colorized outputs.
-- To demonstrate practical applications across various domains such as disaster management, defense, and urban planning.
-
----
-
-## 📆 Project Logbook Snapshot
-
-| Sr.No  | Task / Milestone                         | 
-|--------|------------------------------------------|
-| 1	 | **Phase 1**: Model Research & Selection  | 
-| 2	 | **Phase 2**: Data Preprocessing 	    | 
-| 3	 | **Phase 3**: Initial Training            |
-| 4	 | **Phase 3**: Model Development & Testing |
-| 5	 | **Phase 4**: Model Optimization	    | 
-| 6	 | **Phase 4**: Deployment Preparation      | 
-| 7	 | **Phase 4**: Results Presentation        |
-
----
-
-## 🛠️ Project Planning and Execution
-
-### 📅 Planning and Milestones
-The project was carried out in a systematic and well-organized manner, with each phase dedicated to a specific aspect of the development process. The following milestones were defined to ensure the smooth progression of the project:
-
-### 🌟 **Phase 1: Literature Review and Model Selection**
-
-In this initial phase, the project focused on understanding the current methods used for image colorization and enhancement, particularly in the context of **SAR** imagery. The following activities were carried out:
-
-- **Literature Review**: 
-  - A thorough review of current research papers, articles, and case studies was conducted.
-  - Goal: Identify best practices and gaps in existing **SAR image colorization solutions**.
-
-- **Model Selection**: 
-  Based on the review, various deep learning architectures were evaluated for their suitability to this problem:
-  - **Convolutional Neural Networks (CNNs)**: 
-    - Effective for **spatial feature extraction** and suitable for **colorization tasks**.
-  - **Generative Adversarial Networks (GANs)**: 
-    - Ideal for generating **high-quality images** through adversarial training between a generator and a discriminator.
-  - **Transformers**: 
-    - Explored for handling **long-range dependencies** and achieving better feature representation.
-
----
-
-### 🔎 **Phase 2: Dataset Acquisition, Preprocessing, and Alignment**
-
-This phase involved the collection and preparation of the necessary data for model training. Key steps included:
-
-- **Dataset Acquisition**: 
-  - Gathered a diverse set of paired **SAR images** and **optical images**, with optical images serving as **ground truth** for training.
-  
-- **Preprocessing**: 
-  - **Normalization**: Scaling pixel values between **0 and 1**.
-  - **Resizing**: Ensuring uniform image size and format for **consistent input**.
-  - **Augmentation**: Applied **rotation**, **flipping**, and **scaling** techniques to increase the training dataset and prevent overfitting.
-
-- **Alignment**: 
-  - Ensured proper alignment of **SAR** and **optical images** for accurate mapping during the colorization process.
-
----
-
-### 🛠️ **Phase 3: Model Development, Training, Testing, and Metric-based Evaluation**
-
-This phase focused on the development, training, and evaluation of the deep learning model. Key activities included:
-
-- **Model Development**: 
-  - Built a hybrid deep learning model using **CNNs** for feature extraction and **GANs** for high-quality image generation.
-  
-- **Training**: 
-  - Used **backpropagation** and **gradient descent** for training.
-  - Monitored **loss functions** and adjusted **hyperparameters** for optimal model learning.
-
-- **Testing**: 
-  - Evaluated the model's performance on a **test dataset** to ensure generalization to unseen data.
-
-- **Metric-based Evaluation**: 
-  Several metrics were used to assess image quality:
-  - **SSIM (Structural Similarity Index Measure)**: Measures similarity between the colorized image and **ground truth**.
-  - **PSNR (Peak Signal-to-Noise Ratio)**: Compares the **peak signal** to **noise** for image quality evaluation.
-  - **Perceptual Loss**: Ensures the **visual appeal** of the image based on human perception.
-
----
-
-### 🚀 **Phase 4: Final Optimization, Deployment Preparation, and Results Presentation**
-
-In the final phase, the model was optimized, prepared for deployment, and results were presented:
-
-- **Optimization**: 
-  - Fine-tuned the model based on **evaluation metrics** by adjusting **hyperparameters** and applying **advanced optimization techniques**.
-
-- **Deployment Preparation**: 
-  - Prepared the model for **real-world deployment** to handle new **SAR data** and generate **colorized outputs** in **real-time**.
-
-- **Results Presentation**: 
-  - Presented the **final results**, including **colorized images**, **evaluation metrics**, and other insights.
-  - Visual comparisons between **grayscale** and **colorized images** highlighted the model’s **effectiveness**.
-
-
----
-
-## 🧠 Technical Content and Implementation
-
-### 💡 Core Concepts and Understanding
-- Leveraged **CNNs** for spatial feature analysis, **GANs** for high-quality image generation, and **Transformers** for advanced feature representation.
-- Applied domain-specific loss functions such as **Mean Squared Error (MSE)**, **SSIM**, and **Perceptual Loss** to optimize output quality.
-
-### 🧰 Tools, Libraries, and Frameworks
-- **Programming Language**: Python
-- **Frameworks**: TensorFlow, PyTorch
-- **Libraries**: OpenCV, NumPy, Pandas, Matplotlib (for data processing and visualization)
-
-### 🌟 Innovation and Originality
-- Developed a novel training pipeline that learns the colorization of SAR imagery from paired optical data.
-- Focused on perceptual quality to bridge the gap between technical SAR data and human visual interpretation.
+**Project Title:** SAR Image Colourization for Comprehensive Insight Using Deep Learning  
+**Semester:** VI (2024–2025)  
+**Project Stage:** I  
 
 ---
 
@@ -128,40 +11,170 @@ In the final phase, the model was optimized, prepared for deployment, and result
 
 ### 👥 Team Members
 - **Neha Sandeep Gayakawad** (Roll No: 221106005 & 09)  
-- **Patil Bhavesh Bhagwan**  (Roll No: 221106023 & 24)  
-- **Mali Gaurang Jagdish**   (Roll No: 221106041 & 41)  
-- **Mahajan Kalpesh Subhash**(Roll No: 221106051 & 50)  
-- **Mali Dipali Vilas**      (Roll No: 221106055 & 54)  
+- **Patil Bhavesh Bhagwan** (Roll No: 221106023 & 24)  
+- **Mali Gaurang Jagdish** (Roll No: 221106041 & 41)  
+- **Mahajan Kalpesh Subhash** (Roll No: 221106051 & 50)  
+- **Mali Dipali Vilas** (Roll No: 221106055 & 54)  
 
 ### 👩‍🏫 Guided By
 **Prof. P. D. Lanjewar Ma'am**
 
-- Role distribution was handled effectively: data handling, model building, testing, and documentation were assigned based on each team member’s strengths.
-- Regular team meetings and collaborative coding via version control ensured smooth communication and progress.
+---
+
+## 🗂️ Weekly Logbook Index
+
+| Week No. | Dates                | Section                        |
+|----------|----------------------|--------------------------------|
+| 1        | 24/02/2025 – 08/03/2025 | [Introduction](#1-introduction)              |
+| 2        | 10/03/2025 – 22/03/2025 | [Literature Survey](#2-literature-survey)    |
+| 3        | 24/03/2025 – 05/04/2025 | [Methodology](#3-methodology)                |
+| 4        | 07/04/2025 – 26/04/2025 | [Implementation Details](#4-implementation-details) |
+| 5        | 28/04/2025 – 03/05/2025 | [Results](#5-results)                        |
+| —        | —                    | [Conclusion](#6-conclusion)                  |
+| —        | —                    | [References](#7-references)                  |
 
 ---
 
-## 🚀 Scalability and Practical Applications
+## 1. Introduction  
+**Week 1: 24/02/2025 – 08/03/2025**
 
-### 🌍 Real-World Relevance
-- Provides enhanced SAR visualization for sectors such as government, defense, environmental monitoring, and research.
-- Facilitates rapid decision-making in critical applications like flood analysis, infrastructure monitoring, and terrain mapping.
+### 🧩 Problem Statement  
+SAR images are valuable in various fields, but their grayscale format limits interpretability for human analysts. This project addresses that challenge by developing a deep learning pipeline to colorize SAR images and enhance their interpretability.
 
-### 🔮 Future Scope
-- Extend to time-series SAR data for change detection.
-- Enable real-time deployment on satellite or edge devices.
-- Adapt to other grayscale imaging modalities like medical scans.
+### 🎯 Objectives  
+- Develop an automated SAR-to-color image translation model.  
+- Leverage U-Net for image reconstruction and enhancement.  
+- Train using paired SAR-optical datasets.  
+- Evaluate performance using visual and numerical metrics.
 
----
-
-## ✅ Deliverables and Outcomes
-- A deep learning model capable of converting grayscale SAR images into perceptually colorized versions.
-- A curated dataset of paired SAR and optical images.
-- Performance evaluation with metrics like SSIM and PSNR.
-- Complete documentation and source code hosted on GitHub.
-- Potential for academic publication based on originality and performance.
+### 🌍 Application Domains  
+- Remote Sensing and Environmental Monitoring  
+- Strategic Defense and Surveillance  
+- Urban Planning and Disaster Management
 
 ---
 
-## 🧾 Conclusion
-This project offers a robust and scalable solution for colorizing SAR imagery. With a well-structured development process, collaborative teamwork, and deep learning innovations, the project bridges the gap between grayscale SAR data and visually interpretable information.
+## 2. Literature Survey  
+**Week 2: 10/03/2025 – 22/03/2025**
+
+### 📚 Background Study  
+The project is grounded in recent advancements in image-to-image translation using CNNs and GANs. These methods show potential in tasks like super-resolution, image colorization, and domain adaptation.
+
+### 📄 Research Papers Reviewed  
+- Zhang et al., “SAR Image Colorization Using Conditional GAN”, IEEE Transactions.  
+- Isola et al., “Image-to-Image Translation Using Conditional GANs”, CVPR.  
+- Ronneberger et al., “U-Net: Convolutional Networks for Biomedical Image Segmentation”, MICCAI.  
+- Goodfellow et al., “Generative Adversarial Networks”, NeurIPS.
+
+### 📌 Key Takeaways  
+- U-Net architecture is effective in spatial feature learning.  
+- GANs improve realism in generated images.  
+- SAR-optical pair datasets are essential for training and evaluation.
+
+---
+
+## 3. Methodology  
+**Week 3: 24/03/2025 – 05/04/2025**
+
+### 🛠️ Tools and Technologies  
+- **Hardware:** NVIDIA RTX 3050 GPU, 16 GB RAM  
+- **Languages:** Python 3.10  
+- **Libraries:** TensorFlow, OpenCV, NumPy, Matplotlib  
+- **Visualization:** Power BI/Tableau (optional for analytics)
+
+### 🔧 Dataset Preparation  
+- Dataset: 4000 paired SAR and optical images  
+- Size: Resized to 256×256 for quality and performance  
+- Normalization: Pixel values scaled between 0 and 1  
+- Augmentation: Applied rotation, zoom, brightness change, flipping
+
+### ⚙️ Model Architecture  
+- U-Net-based encoder-decoder with skip connections  
+- Convolutional filters: 32 to 256 with batch normalization  
+- Output layer: 3-channel RGB with sigmoid activation
+
+### 🧠 Memory Optimization  
+- Enabled GPU memory growth with capped 4GB usage  
+- Batch-wise data loading with error handling  
+- Garbage collection and backend clearing after each batch
+
+
+---
+
+## 4. Implementation Details  
+**Week 4: 07/04/2025 – 26/04/2025**
+
+### 🧩 Module 1 – Data Loading & Preprocessing  
+This module is responsible for preparing the data pipeline from raw image folders to normalized arrays ready for training.
+
+- **Batch-Based Loading:** Images are loaded in small batches (10 images at a time) to avoid memory overflow.  
+- **Validation & Filtering:** Files are checked for validity, and corrupted or unreadable files are automatically skipped with warnings.  
+- **Image Normalization:** SAR (grayscale) and Optical (RGB) images are resized to 256×256 pixels and scaled to [0, 1] range.  
+- **Channel Management:** Grayscale images are expanded to add a channel dimension for compatibility with CNNs.  
+- **Memory Management:** After each batch, garbage collection and session clearing ensure smooth GPU memory usage.  
+- Batch loading implemented for memory efficiency  
+- Verified image integrity and skipped corrupted pairs  
+- Implemented resizing and normalization
+
+### 🧩 Module 2 – Model Building  
+This module focuses on defining and compiling the deep learning architecture used for colorization.
+
+- **Architecture Used:** A customized U-Net model was implemented with increasing filters (32 → 64 → 128 → 256).  
+- **Layer Enhancements:** Each convolution block includes batch normalization to stabilize learning and prevent overfitting.  
+- **Activation Function:** ReLU used in hidden layers; Sigmoid at the output layer for RGB image generation.  
+- **Output Shape:** 256×256×3 tensor to represent colorized output.  
+- **Error Handling:** The model build process includes try-except blocks to catch TensorFlow-related exceptions.  
+- **Optimizer:** Adam with a learning rate of 0.001 for faster convergence on the RTX 3050 GPU.  
+- Built a deeper U-Net model with advanced regularization  
+- Compiled with Adam optimizer and Mean Squared Error loss  
+- Trained for 150 epochs with 4-image batches
+
+### 🧩 Module 3 – Training & Monitoring  
+This module handles the training lifecycle, including validation, monitoring, and model persistence.
+
+- **Dataset Creation:** Used `tf.data` to create training and validation pipelines with caching, shuffling, batching, and prefetching.  
+- **Callbacks Implemented:**  
+  - *EarlyStopping* to halt training after no improvement.  
+  - *ReduceLROnPlateau* to decrease learning rate during plateaus.  
+  - *ModelCheckpoint* to store the best weights.  
+  - *TerminateOnNaN* for safety.  
+- **Training Runtime:** Model trained for 150 epochs with a batch size of 4 using multiprocessing.  
+- **Output Files:**  
+  - Final model saved as `Sar_colourization_model.keras`  
+  - Backup version saved in case of failure  
+  - Training metrics plotted and saved as `training_history.png`  
+- Used `tf.data` API for optimized data pipeline  
+- Applied callbacks: EarlyStopping, ReduceLROnPlateau, ModelCheckpoint  
+- Enabled multiprocessing for training speed-up
+
+---
+
+## 5. Results  
+**Week 5: 28/04/2025 – 03/05/2025**
+
+### 📦 Dataset Used  
+- Source: QXSLAB_SAROPT SAR-optical image folder  
+- Format: 8-bit grayscale SAR and 3-channel RGB images
+
+
+### 📈 Visualization  
+- Training loss/accuracy plotted per epoch  
+- Final predictions compared with SAR inputs and ground truth  
+- Results saved in `training_history.png`
+
+---
+
+## 6. Conclusion  
+
+A deep learning pipeline using a U-Net architecture was successfully developed and trained to colorize SAR images. The project addressed preprocessing, model optimization, and evaluation using GPU-accelerated workflows. Future work includes deploying GAN-based refinement and integration into web-based applications.
+
+---
+
+## 7. References  
+
+1. Zhang et al., “SAR Image Colorization Using GANs”, IEEE Transactions.  
+2. Ronneberger et al., “U-Net: Convolutional Networks for Biomedical Image Segmentation”, MICCAI.  
+3. Isola et al., “Image-to-Image Translation Using Conditional GANs”, CVPR.  
+4. TensorFlow and Keras Documentation.  
+5. Copernicus Open Access Hub SAR datasets.
+
