@@ -77,13 +77,12 @@ The project is grounded in recent advancements in image-to-image translation usi
 **Week 3: 24/03/2025 – 05/04/2025**
 
 ### 🛠️ Tools and Technologies  
-- **Hardware:** NVIDIA RTX 3050 GPU, 16 GB RAM  
+- **Hardware:** RTX 3050 GPU, 16 GB RAM  
 - **Languages:** Python 3.10  
 - **Libraries:** TensorFlow, OpenCV, NumPy, Matplotlib  
-- **Visualization:** Power BI/Tableau (optional for analytics)
 
 ### 🔧 Dataset Preparation  
-- Dataset: 4000 paired SAR and optical images  
+- Dataset: SAR Image Colorization.csv 
 - Size: Resized to 256×256 for quality and performance  
 - Normalization: Pixel values scaled between 0 and 1  
 - Augmentation: Applied rotation, zoom, brightness change, flipping
@@ -153,7 +152,7 @@ This module handles the training lifecycle, including validation, monitoring, an
 **Week 5: 28/04/2025 – 03/05/2025**
 
 ### 📦 Dataset Used  
-- Source: QXSLAB_SAROPT SAR-optical image folder  
+- Source: SAR Image Colorization.csv
 - Format: 8-bit grayscale SAR and 3-channel RGB images
 
 
