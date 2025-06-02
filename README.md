@@ -22,10 +22,19 @@ The participants are challenged to create a DL system that can accurately predic
 The challenges require innovative approaches in data pre-processing, DL model design, and evaluation methodologies to develop effective and reliable SAR image colorization solutions.  
 
 ## 🎯 Objectives  
-- Develop a deep learning-based solution to colorize grayscale SAR images.  
-- Improve SAR image interpretability for better analysis in space technology applications.  
-- Design an optimized neural network trained using paired SAR and Optical images.  
-- Minimize loss functions to ensure realistic and accurate colorization.  
+
+- Improve SAR image interpretability for better analysis in space technology applications.
+
+- Design an optimized neural network trained using paired SAR and Optical images.
+
+- Minimize loss functions to ensure realistic and accurate colorization.
+
+- Utilize real-world satellite data such as Sentinel-1 and Sentinel-2 for model training and validation.
+
+- Enhance visual and structural quality using perceptual metrics like SSIM, PSNR and LPIPS.
+
+- Build a modular and scalable system architecture for potential real-time deployment.
+
 
 ## 🛠 Technologies Used  
 - **Python**  
