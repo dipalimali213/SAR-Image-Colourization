@@ -30,8 +30,8 @@
 | 3        | 24/03/2025 – 05/04/2025 | [Methodology](#3-methodology)                |
 | 4        | 07/04/2025 – 26/04/2025 | [Implementation Details](#4-implementation-details) |
 | 5        | 28/04/2025 – 03/05/2025 | [Results](#5-results)                        |
-| —        | —                    | [Conclusion](#6-conclusion)                  |
-| —        | —                    | [References](#7-references)                  |
+| 6        | —                    | [Conclusion](#6-conclusion)                  |
+| 7        | —                    | [References](#7-references)                  |
 
 ---
 
