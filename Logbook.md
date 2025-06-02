@@ -171,9 +171,15 @@ A deep learning pipeline using a U-Net architecture was successfully developed a
 
 ## 7. References  
 
-1. Zhang et al., “SAR Image Colorization Using GANs”, IEEE Transactions.  
-2. Ronneberger et al., “U-Net: Convolutional Networks for Biomedical Image Segmentation”, MICCAI.  
-3. Isola et al., “Image-to-Image Translation Using Conditional GANs”, CVPR.  
-4. TensorFlow and Keras Documentation.  
-5. Copernicus Open Access Hub SAR datasets.
+[1] L. H. Hughes, M. Schmitt and X. X. Zhu, "Deep Learning for SAR Image Colorization: A Review and Benchmark Dataset," Remote Sensing, vol. 12, no. 9, 2020.
+
+[2] O. Ronneberger, P. Fischer and T. Brox, "U-Net: Convolutional Networks for Biomedical Image Segmentation," arXiv preprint arXiv:1505.04597, 2015.
+
+[3] Copernicus Open Access Hub, "Sentinel-2 Optical RGB Data."
+
+[4] M. Schmitt, L. H. Hughes and X. X. Zhu, "SAR-to-Optical Image Translation Using Generative Adversarial Networks," IEEE Geoscience and Remote Sensing Letters, vol. 16, no. 5, pp. 743–747, 2019.
+
+[5] H. Zhang, I. Goodfellow, D. Metaxas and A. Odena, "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks," arXiv preprint arXiv:1703.10593, 2017. [Online].
+
+[6] M. Schmitt, L. H. Hughes, C. Qiu and X. X. Zhu, "SEN1-2: A Benchmark Dataset for Training Deep Learning Models on SAR and Optical Imagery Fusion," ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, vol. IV-1, pp.
 
